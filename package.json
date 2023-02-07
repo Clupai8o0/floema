@@ -1,0 +1,27 @@
+{
+	"name": "floema",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "webpack -p --progress --config webpack.config.build.js",
+		"development": "webpack-dev-server --progress --config webpack.config.development.js",
+		"start": "npm run development"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Clupai8o0/floema.git"
+	},
+	"author": "Clupai8o0",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Clupai8o0/floema/issues"
+	},
+	"homepage": "https://github.com/Clupai8o0/floema#readme",
+	"devDependencies": {
+		"webpack": "^5.75.0",
+		"webpack-cli": "^5.0.1",
+		"webpack-dev-server": "^4.11.1",
+		"webpack-merge": "^5.8.0"
+	}
+}
